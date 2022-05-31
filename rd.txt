@@ -1,0 +1,16 @@
+ADITYA SINGH GANGWAR
+2021CSM1001
+
+
+How to run?
+
+1. First, install Postfix to send mail. Reference: https://tonyteaches.tech/postfix-gmail-smtp-on-ubuntu/
+2. Open terminal and enter make
+3. Then enter ./server and give the port number. This will create the server. Eg: ./server 8000
+4. Open another terminal and enter curl command to send request to the server in format: curl "http://localhost:8000/?Name&quantity&type&email. Eg: curl "http://localhost:8000/?Aditya&10&deluxe&adygangwar9@gmail.com"
+5. Number of tickets are stored in data.txt for each type. So our program reads those values present in data.txt and allocates tickets and then updates data.txt file respectively.
+6. File.txt contains the body of the mail that is sent to the guest. It gets updated for each request.
+7. Finally the mail is sent to the email id given. If there are any errors, then they are displayed on the server side.
+
+================================================================================THANK YOU=====================================================================================================
+
